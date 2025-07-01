@@ -15,7 +15,7 @@ const app = express();
 
 // allow multiple origins
 connectDB()
-const allowedOrigins = ["http://localhost:5173"];
+const allowedOrigins = ["http://localhost:5173" , "https://grocery-app-1-3u1h.onrender.com"];
 
 //middlewares
 app.use(cors({ origin: allowedOrigins, credentials: true }));
